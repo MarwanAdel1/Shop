@@ -11,7 +11,6 @@ class AuthScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
-    print("------");
     return Scaffold(
       // resizeToAvoidBottomInset: false,
       body: Stack(
